@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stayl.css">
+</head>
+<body>
+    <div class="divForm">
+        <h1 class="divH1">CROSS market</h1>
+        <form action="">
+            <label for="">BREND</label><br>
+            <input type="text" placeholder="BREND название"><br><br>
+            <label for="">SIZE</label><br>
+            <input type="text" placeholder="Какой размер ?"><br><br>
+            <label for="">IMAGE</label><br>
+            <input type="text" placeholder="url - картина"><br><br>
+            <label for="">PRICE</label><br>
+            <input type="number" placeholder="Сколько стоит ?"><br><br> 
+            <button id="buttonn">ОТПРАВЬТЕ</button>
+        </form>
+    </div> 
+
+    <ul id="continer"></ul>
+
+    <div id="modal" class="hide-modal">
+        <div class="modal">
+            <div class="modal-content">
+                <h1>Вы уверены что хотите <br>  удалить ?</h1><br><br>
+                <div>
+                    <button id="modal-button">Да</button>
+                    <button id="modal-buttonn2">Нет</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <script src="./script.js"></script>
+</body>
+</html>

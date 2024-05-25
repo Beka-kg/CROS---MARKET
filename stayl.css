@@ -1,0 +1,123 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  label{
+    font-weight: 900;
+  }
+  input{
+    border: none;
+    padding: 5px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(225, 233, 240, 0.699);
+  }
+  
+  #buttonn{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color:blue;
+    color: white;
+  }
+  #buttonn:active{
+    background-color: rgb(15, 15, 148);
+  }
+  
+  
+  
+  
+  ul div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+  }
+  
+  img {
+    width: 180px;
+    height: 150px;
+  }
+
+  
+  .divImg{
+    margin-top: 25px;
+  }
+  
+  .divH1{
+    display: flex;
+    margin-top: 60px;
+    margin-right: 340px;
+    color: wheat;
+  }
+  
+  form{
+    width: 400px;
+    color: azure;
+  }
+  
+  
+  .show-modal{
+    display: block;
+  }
+  .hide-modal{
+    display: none;
+  }
+  
+  
+  .modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    padding: 2em 4em;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .modal-content div {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .modal-content button{
+    padding: 1em 3em;
+    border: none;
+    border-radius: 10px;
+  }
+  #modal-button{
+    background-color: rgb(9, 205, 9);
+  }
+  #modal-buttonn2{
+    background-color: rgb(246, 45, 45);
+  }
+  #modal-button:active{
+    background-color: green;
+  }
+  #modal-buttonn2:active{
+    background-color: rgb(170, 9, 9);
+  }
+  
+  ul button{
+    border: none;
+    border-radius: 10px ;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+  }
+  ul button:active{
+    background-color: rgb(18, 18, 148);
+  }
